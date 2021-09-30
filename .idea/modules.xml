@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exam/Exam.iml" filepath="$PROJECT_DIR$/Exam/Exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lessons/Lessons.iml" filepath="$PROJECT_DIR$/Lessons/Lessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SE2205-class.iml" filepath="$PROJECT_DIR$/SE2205-class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mtuenmuk_Lab1/mtuenmuk_Lab1.iml" filepath="$PROJECT_DIR$/mtuenmuk_Lab1/mtuenmuk_Lab1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mtuenmuk_Lab2/mtuenmuk_Lab2.iml" filepath="$PROJECT_DIR$/mtuenmuk_Lab2/mtuenmuk_Lab2.iml" />
+    </modules>
+  </component>
+</project>
