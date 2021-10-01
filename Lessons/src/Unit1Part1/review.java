@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class review {
     static Scanner in = new Scanner(System.in);
 
-    public static void main(){
+    public static void main(String[] args){
         System.out.print("T/F A computer program is the implementation of an algorithm");
         String ans = in.next();
 
@@ -48,9 +48,7 @@ public class review {
             System.out.println("right");
         }
 
-        System.out.print("In Java programming language, the\n" +
-                "main() method has to be declared as a static method\n" +
-                "of a class");
+        System.out.print("In Java programming language, the main() method has to be declared as a static method of a class");
         ans = in.next();
 
         if (ans == "true"){
@@ -60,8 +58,7 @@ public class review {
         System.out.print("Which of the following statements is FALSE?");
         ans = in.next();
 
-        if (ans == "In Java, a class definition should always\n" +
-                "be terminated with a semicolon."){
+        if (ans == "In Java, a class definition should always be terminated with a semicolon."){
             System.out.println("right");
         }
 
@@ -104,5 +101,49 @@ public class review {
                 "be terminated with a semicolon."){
             System.out.println("right");
         }
+
+        System.out.print("What will be the value of 'c' after the third statement?\n" +
+                "(Let’s draw the memory diagram to find our answer; in\n" +
+                "class discussion)\n" +
+                "int a = 3, b = 2;\n" +
+                "double c;\n" +
+                "c = (a+b)/2;");
+        ans = in.next();
+
+        if (ans == "2"){ //cause dividing by int cause it to round down
+            System.out.println("right");
+        }
+
+        System.out.print("What will be the value of 'c' after the third statement?\n" +
+                "(Let’s draw the memory diagram to find our answer; in\n" +
+                "class discussion)\n" +
+                "float a = 3, b = 2;\n" +
+                "int c;\n" +
+                "c = (a+b)/2;");
+        ans = in.next();
+
+        if (ans == "The code will not compile"){
+            System.out.println("right");
+        }
+
+        System.out.print("What will be the output of the code? Let’s draw the memory\n" +
+                "diagram (in class discussion)\n" +
+                "int a = 2, b = 4;\n" +
+                "a = ++b;\n" +
+                "System.out.println(a+\", \"+b);");
+        ans = in.next();
+
+        if (ans == "5, 5"){
+            System.out.println("right");
+        }
+
+        System.out.print("Output ? int a = 2, float b = 4.0;\n" +
+                "System.out.println(a/b);");
+        ans = in.next();
+
+        if (ans == "the code will result in a Compilation error"){
+            System.out.println("right");
+        }
+
     }
 }
