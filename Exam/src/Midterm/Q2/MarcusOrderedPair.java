@@ -1,6 +1,6 @@
 package Midterm.Q2;
 
-public class MarcusOrderedPair <T> implements PairableInterface{
+public class MarcusOrderedPair <T> implements PairableInterface<T>{
     private T first;
     private T second;
 
@@ -8,10 +8,9 @@ public class MarcusOrderedPair <T> implements PairableInterface{
     }
 
     @Override
-    public void setPair(Object first, Object second) {
-        PairableInterface.super.setPair(first, second);
-        this.first = (T) first;
-        this.second = (T) second;
+    public void setPair(T first, T second) {
+        this.first = first;
+        this.second = second;
     }
 
     @Override

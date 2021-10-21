@@ -1,7 +1,7 @@
 package Midterm.Q1;
 import java.util.*;
 
-public class MarcusQ1 extends InputMismatchException{
+public class MarcusQ1{
     static Scanner in = new Scanner(System.in);
 
     public static void main(String[] args){
